@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about my educational background.">
+    <title>Education - Muhammad Amirul</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('lofi.gif');
+            background-size: cover;
+            color: rgb(0, 0, 0);
+        }
+        header {
+        font-family: "Arial", sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        color: white;
+        padding: 80px 0;
+        background: url('links.gif') no-repeat center center;
+        background-size: cover;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #00ffff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgb(255, 255, 255);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+        .education-item {
+            margin-bottom: 20px;
+        }
+        .education-item h3 {
+            margin: 0;
+            color: #ffffff;
+        }
+        .education-item p {
+            margin: 5px 0;
+        }
+        .education-item span {
+            font-style: italic;
+            color: #d900ff;
+        }
+        footer {
+            background: #333;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #00f5f5;
+        }
+        th {
+            background-color: #007bff;
+            color: rgb(0, 0, 0);
+        }
+        td {
+            background-color: #ffffff;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Education</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="About me.html">About Me</a>
+    <a href="Exprience.html">Experience</a>
+    <a href="Education.html">Education</a>
+    <a href="family.html">Family</a>
+    <a href="Gallery.html">Gallery</a>
+</nav>
+
+<section class="container">
+    <h2>Education</h2>
+
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Education Table</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+    
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+    
+            th, td {
+                border: 1px solid #ddd;
+                padding: 15px;
+                text-align: left;
+            }
+    
+            th {
+                background-color: #f4f4f4;
+            }
+    
+            img {
+                display: block;
+                max-width: 100px; 
+                max-height: 100px; 
+                width: auto;
+                height: auto;
+                margin: auto;
+            }
+    
+            .education-item h3 {
+                margin: 0;
+                color: #007bff;
+            }
+    
+            .education-item p {
+                margin: 5px 0;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <table>
+        <tr>
+            <th>Education</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="education-item">
+                    <h3>UNIVERSITI TEKNOLOGI MARA (UITM)</h3>
+                    <p><span>Diploma of Computing, Informatics & Mathematics</span></p>
+                    <p>Specialized in Software Development and Web Technologies. Gained experience in programming languages like HTML and C++.</p>
+                    <p>Current CGPA: 3.1/4.00</p>
+                </div>
+            </td>
+            <td><img src="UITM.jpg" alt="UITM Exam Image"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="education-item">
+                    <h3>SMK Putrajaya Presint 11 (2)</h3>
+                    <p><span>Malaysia Certificate of Education (SPM) 2021</span></p>
+                    <p>SPM: 3A 2B 2C 1D</p>
+                </div>
+            </td>
+            <td><img src="SMKPP112.jpg" alt="SPM Exam Image"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="education-item">
+                    <h3>SMK Putrajaya Presint 11 (2)</h3>
+                    <p><span>Pentaksiran Tingkatan 3 (PT3) 2019</span></p>
+                    <p>PT3: 4A 3B 1C 1D</p>
+                </div>
+            </td>
+            <td><img src="SMKPP112.jpg" alt="PT3 Exam Image"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="education-item">
+                    <h3>SK Putrajaya Presint 11 (2)</h3>
+                    <p><span>Primary School Achievement Test (UPSR) 2016</span></p>
+                    <p>UPSR: 1A 3B 1C 1D</p>
+                </div>
+            </td>
+            <td><img src="SKPP112.jpg" alt="UPSR Exam Image"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="education-item">
+                    <h3>KAFA PUTRA PUTRAJAYA</h3>
+                    <p><span>Ujian Penilaian Kelas KAFA (UPKK) 2015</span></p>
+                    <p>UPKK: 4A 4B</p>
+                </div>
+            </td>
+            <td><img src="KAFA.jpg" alt="KAFA Exam Image"></td>
+        </tr>
+    </table> 
+</section>
+
+<footer>
+    <p>@MIROLLDOWH</p>
+</footer>
+
+</body>
+</html>

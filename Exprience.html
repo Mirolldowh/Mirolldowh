@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about my professional experience.">
+    <title>Experience - Muhammad Amirul</title>
+    <style>
+        html, body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: url('overdrive.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            box-sizing: border-box;
+        }
+
+        
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        
+        header {
+            font-family: "Arial", sans-serif;
+            font-size: 3rem;
+            text-align: center;
+            color: white;
+            padding: 80px 0;
+            background: url('rain.gif') no-repeat center center fixed;
+            background-size: cover;
+            animation: headerAnimation 2s ease-out;
+        }
+
+        @keyframes headerAnimation {
+            0% { transform: scale(1.05); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 1.1rem;
+            margin: 0 15px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #007bff;
+            border-radius: 5px;
+        }
+
+        /* Content Section */
+        .content {
+            flex: 1;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 2.5rem;
+            color: #007bff;
+        }
+
+        .job {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .job:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .job h3 {
+            margin: 0;
+            color: #007bff;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .job p {
+            margin: 8px 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .job span {
+            font-style: italic;
+            color: #555;
+        }
+
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Styling for Lists */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            position: relative;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.8rem;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <header>
+        <h1>My Experience</h1>
+        <p>Get to know my professional journey and skills</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About me.html">About Me</a>
+        <a href="Exprience.html">Experience</a>
+        <a href="Education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="Gallery.html">Gallery</a>
+    </nav>
+
+    <section class="content">
+        <h2>Projects & Achievements</h2>
+
+        <div class="job">
+            <h3>Project Manager: Proposal Record Center | December 2023 - January 2024</h3>
+            <ul>
+                <li>Proposed specific types of registries, outlined room requirements, and detailed mail management procedures, file classification system, and appraisal disposition processes.</li>
+                <li>Developed project planning, research, and documentation skills.</li>
+                <li>Gained insights into organizational structure, records management, and preservation methods.</li>
+                <li>Calculated estimated costs and budget requirements for setting up the registry.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Project Manager: Website Development | December 2023 - January 2024</h3>
+            <ul>
+                <li>Designed and developed a complete Booking Ticket System program using Java programming language.</li>
+                <li>Practiced effective documentation and code organization techniques.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Muhammad Amirul | All Rights Reserved</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
